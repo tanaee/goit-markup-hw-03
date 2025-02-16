@@ -39,11 +39,11 @@ a:hover, a:focus{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc
 }
 
 .header{
     line-height: 1.17;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .navigation{
@@ -92,10 +92,6 @@ font-family: "Raleway", sans-serif;
     gap: 40px;
 }
 
-.contact-link{
-
-}
-
 .hero{
     background-color: #2E2F42;
     padding: 188px 0;
@@ -136,6 +132,27 @@ font-family: "Raleway", sans-serif;
 
 .hero-button:hover, .hero-button:focus{
     background-color: #404BBF;
+}
+
+.qualities_container{
+    padding: 120px 0;
+}
+
+.visually-hidden{
+    position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+}
+
+.qualities-list{
+    display: flex;
+    gap: 24px;
+}
+
+.qualities-item{
+    width: calc((100% - 72) / 4 );
 }
 
 .qualities-title{

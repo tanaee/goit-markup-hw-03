@@ -140,10 +140,10 @@ font-family: "Raleway", sans-serif;
 
 .visually-hidden{
     position: absolute;
-        clip: rect(0 0 0 0);
-        width: 1px;
-        height: 1px;
-        margin: -1px;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 .qualities-list{
@@ -152,7 +152,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .qualities-item{
-    width: calc((100% - 72) / 4 );
+    width: calc((100% - 72px) / 4 );
 }
 
 .qualities-title{
@@ -161,6 +161,7 @@ font-family: "Raleway", sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .qualities-description{
@@ -168,11 +169,30 @@ font-family: "Raleway", sans-serif;
 }
 
 .team-section {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
+.team_container{
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display:flex;
+    gap: 24px;
+}
+
 .team-item{
+    width: calc((100% - 72px) / 4);
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-item_container{
+    padding: 32px 0;
 }
 
 .team-title {
@@ -186,16 +206,27 @@ font-family: "Raleway", sans-serif;
 }
 
 .team-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-description {
+    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.portfilio-section{
+    padding: 120px 0;
+}
+
+.portfolio_container{
+
 }
 
 .portfolio {
@@ -206,6 +237,23 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding: 72px 0;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item{
+}
+
+.portfolio-item_container{
+    padding: 32px 0;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
 }
 
 .portfolio-title {
@@ -214,11 +262,15 @@ font-family: "Raleway", sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .portfolio-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .footer {
